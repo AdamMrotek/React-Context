@@ -1,0 +1,13 @@
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.navbar-box__list {
+  display: flex;
+  list-style: none;
+}
+.navbar-box__item:not(:last-child) {
+  margin-right: 2rem;
+}

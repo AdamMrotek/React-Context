@@ -1,0 +1,28 @@
+/* <div className="theme-selector">
+<ul className="color-picker-list">
+  <li
+    className="color-picker-blue"
+    onClick={() => {
+      changeColor("blue");
+    }}
+  ></li> */
+.theme-selector {
+}
+.color-picker-list {
+  display: flex;
+}
+.color-picker-list > * {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.color-picker-blue {
+  background-color: rgb(94, 94, 170);
+}
+.color-picker-yellow {
+  background-color: rgb(177, 177, 86);
+}
+.color-picker-green {
+  background-color: rgb(98, 175, 98);
+}
